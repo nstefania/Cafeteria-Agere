@@ -1,0 +1,25 @@
+.nav-button {
+    font-family: "PT Mono", monospace;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button1{
+    background-color: transparent;
+    border: 1px solid #989797;
+    color: #989797;
+    font-family: "PT Mono", monospace;
+    width: 130px;
+}
+//se debe agregar hover a lo botones
+
+.button2{
+    background-color: #4ca866;
+    color: #fff;
+    border: none;
+    font-family: "PT Mono", monospace;
+    width: 100px;
+}
+//se debe agregar hover a lo botones
+
+
