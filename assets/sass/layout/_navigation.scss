@@ -1,6 +1,7 @@
 .nav {
     font-family: "PT Mono", monospace;
     float: left;
+    clear:both;
     list-style: none;
     text-decoration: none;
     color: black;
@@ -17,17 +18,18 @@
 }
 
 .nav-img__logo{
-    width: 40px;
+    width: 10%;
 }
 
 .nav-item {
     display: flex;
     width: 200px;
     height: 30px;
-    margin-left: 50px;
+    margin-left: 40px;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+    float: left;
 
 }
 .nav-link{
