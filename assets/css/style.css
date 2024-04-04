@@ -1,4 +1,61 @@
-@charset "UTF-8";
+h1 {
+  font-size: 70px;
+  font-family: "PT Mono", monospace;
+  margin-right: 10px;
+  margin-top: 120px;
+}
+
+.text1 {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.fa-solid {
+  font-size: 60px;
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "PT Mono", monospace;
+  margin-right: 10px;
+  margin-top: 120px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.img-3 {
+  clip-path: inset(0px 180px 0px 120px);
+  position: relative;
+  z-index: 2;
+  left: 400px;
+}
+
+.img-2 {
+  width: 450px;
+  height: 300px;
+  position: relative;
+  z-index: 1;
+  left: 1000px;
+  clip-path: inset(0px 0px 0px 0px);
+}
+
+.img-4 {
+  height: 260px;
+  width: 500px;
+  position: relative;
+  top: 30px;
+  left: 400px;
+  z-index: 2;
+}
+
 .roboto-light {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -15,6 +72,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  color: black;
 }
 
 .nav {
@@ -22,7 +80,7 @@
   float: left;
   list-style: none;
   text-decoration: none;
-  /*color: black; revisar tamaño*/
+  color: black;
   display: flex;
   width: 100%;
   font-size: 16px;
@@ -35,9 +93,12 @@
   margin-left: 50px;
 }
 
+.nav-img__logo {
+  width: 40px;
+}
+
 .nav-item {
   display: flex;
-  color: inherit;
   width: 200px;
   height: 30px;
   margin-left: 50px;
@@ -49,6 +110,11 @@
 .nav-link {
   text-decoration: none;
   display: flex;
+  color: inherit;
+}
+
+a {
+  color: black;
 }
 
 .nav-button {
@@ -75,13 +141,6 @@
   width: 350px;
   position: relative;
   right: 30px;
-}
-
-h1 {
-  font-size: 70px;
-  font-family: "PT Mono", monospace;
-  margin-right: 10px;
-  margin-top: 120px;
 }
 
 .text1 {
@@ -133,13 +192,6 @@ h1 {
   background-color: #f1dd7b;
   position: absolute;
   z-index: 1;
-}
-
-.fa-solid {
-  font-size: 60px;
-  color: #fff;
-  margin-top: 30px;
-  margin-left: 30px;
 }
 
 .section-ubication {
@@ -229,7 +281,7 @@ footer {
   font-family: "PT Mono", monospace;
   font-size: 16px;
   margin-left: 50px;
-  margin-top: 70px;
+  margin-top: 130px;
   margin-bottom: 20px;
 }
 
@@ -243,7 +295,7 @@ footer {
   justify-content: space-between;
 }
 
-.button1 {
+.nav-button__action {
   background-color: transparent;
   border: 1px solid #989797;
   color: #989797;
@@ -251,7 +303,7 @@ footer {
   width: 130px;
 }
 
-.button2 {
+.nav-button__action--secundary {
   background-color: #4ca866;
   color: #fff;
   border: none;

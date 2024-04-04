@@ -4,7 +4,7 @@
     justify-content: space-between;
 }
 
-.button1{
+.nav-button__action{
     background-color: transparent;
     border: 1px solid #989797;
     color: #989797;
@@ -13,7 +13,7 @@
 }
 //se debe agregar hover a lo botones
 
-.button2{
+.nav-button__action--secundary{
     background-color: #4ca866;
     color: #fff;
     border: none;
